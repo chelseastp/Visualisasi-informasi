@@ -1,4 +1,4 @@
-# Visualisasi-informasi (UTS)	
+# Visualisasi-informasi
 Visualisasi data dilihat oleh banyak bidang ilmu sebagai komunikasi visual modern. Visualisasi data adalah teknik menyajikan data secara visual melalui grafik, chart, peta dengan tujuan informasi tetap informatif dengan tampilan yang menarik dan mudah dipahami. Visualisasi data dapat menggambarkan relasi dan pola antara variabel yang ada dalam data. Tujuan pokok visualisasi data ialah untuk mengomunikasikan informasi secara jelas dan efektif melalui sarana grafis	
 
 ## Manfaat Visualisasi Data	
