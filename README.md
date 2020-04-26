@@ -16,17 +16,17 @@ Visualisasi data dilihat oleh banyak bidang ilmu sebagai komunikasi visual moder
 3. Google Charts (Visualization Framework)
 
 
-<b>Tahapan Visualisasi</b>
+<b>Tahapan Visualisasi</b><p>
 <b>1. Menentukan data row yang akan kita olah.</b><p>
-Data row merupakan sekumpulan baris data yang memuat beberapa variabel informasi. Tabel dibawah ini merupakan contoh data row. Data row dapat berasal dari satu atau beberapa tabel dalam sql, misalnya, atau berasal dari sumber lain misalnya API sebuah sistem atau file excel. Tahap pertama yang harus kita siapkan dalam visualisasi data adalah memastikan bahwa data yang kita miliki sudah dalam bentuk terstruktur dalam baris data.
+Data row merupakan sekumpulan baris data yang memuat beberapa variabel informasi. Tabel dibawah ini merupakan contoh data row. Data row dapat berasal dari satu atau beberapa tabel dalam sql, misalnya, atau berasal dari sumber lain misalnya API sebuah sistem atau file excel. Tahap pertama yang harus kita siapkan dalam visualisasi data adalah memastikan bahwa data yang kita miliki sudah dalam bentuk terstruktur dalam baris data.<p>
 <b>2. Menyusun problem statement.</b><p>
-Data row pada poin 1 memuat variabel gender, semester, dan ipk untuk mahasiswa dengan nim tertentu. Tabel tersebut sudah memiliki informasi, misalnya, mahasiswa dengan nim 0786373 adalah laki-laki yang sedang menempuh semester 3 dan memiliki IPK 3.25. Tetapi data tersebut belum memiliki informasi secara menyeluruh yang dapat memberikan pengetahuan tertentu. Oleh sebab itu kita perlu untuk menyusun problem statemen yang dapat menggambarkan informasi apa saja yang akan disampaikan kepada pengguna.
+Data row pada poin 1 memuat variabel gender, semester, dan ipk untuk mahasiswa dengan nim tertentu. Tabel tersebut sudah memiliki informasi, misalnya, mahasiswa dengan nim 0786373 adalah laki-laki yang sedang menempuh semester 3 dan memiliki IPK 3.25. Tetapi data tersebut belum memiliki informasi secara menyeluruh yang dapat memberikan pengetahuan tertentu. Oleh sebab itu kita perlu untuk menyusun problem statemen yang dapat menggambarkan informasi apa saja yang akan disampaikan kepada pengguna.<p>
 <b>3. Membuat data tabel dalam format cross tabulation.</b><p>
-Langkah berikutnya adalah menyusun cross tabulation berdasarkan baris data dan problem statement. Satu probem statement akan menghasilkan satu cross tabulation. Mungkin tahap ini akan memerlukan algoritma untuk membuat data row menjadi format cross tabulation yang kita inginkan.
+Langkah berikutnya adalah menyusun cross tabulation berdasarkan baris data dan problem statement. Satu probem statement akan menghasilkan satu cross tabulation. Mungkin tahap ini akan memerlukan algoritma untuk membuat data row menjadi format cross tabulation yang kita inginkan.<p>
 <b>4. Menentukan teknik visualisasi.</b><p>
-Teknik visualisasi merupakan bentuk visual yang digunakan untuk menampilkan data. Secara umum teknik visualisasi terdiri dari Pie Chart (diagram lingkaran), Bar Chart (diagram batang), line chart (diagram garis), atau gabungan antara bar chart dan line chart. Pada tahap ini, kita menganisa teknik yang tepat untuk setiap cross tabulation yang sudah dibuat pada tahap sebelumnya.
+Teknik visualisasi merupakan bentuk visual yang digunakan untuk menampilkan data. Secara umum teknik visualisasi terdiri dari Pie Chart (diagram lingkaran), Bar Chart (diagram batang), line chart (diagram garis), atau gabungan antara bar chart dan line chart. Pada tahap ini, kita menganisa teknik yang tepat untuk setiap cross tabulation yang sudah dibuat pada tahap sebelumnya.<p>
 <b>5. Menentukan layout.</b><p>
-Tahap layouting merupakan tahap menentukan posisi dari setiap visualisasi pada layar utama visualisasi agar pengguna dapat menerima sejumlah besar informasi sekaligus. Oleh sebab itu halaman visualisasi sebaiknya merupakan single page sehingga aspek penyampaian informasi secara sekaligus dapat terpenuhi.
+Tahap layouting merupakan tahap menentukan posisi dari setiap visualisasi pada layar utama visualisasi agar pengguna dapat menerima sejumlah besar informasi sekaligus. Oleh sebab itu halaman visualisasi sebaiknya merupakan single page sehingga aspek penyampaian informasi secara sekaligus dapat terpenuhi.<p>
 
 
 <b>Berdasarkan data row yang sudah kita peroleh, problem statement dapat kita susun. Problem statement yang mungkin diperoleh dari data row terebut diantaranya adalah:</b>
