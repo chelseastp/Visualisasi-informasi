@@ -34,25 +34,21 @@ Tahap layouting merupakan tahap menentukan posisi dari setiap visualisasi pada l
 
 <b>Berdasarkan data row yang sudah kita peroleh, problem statement dapat kita susun. Problem statement yang mungkin diperoleh dari data row terebut diantaranya adalah:</b>
 1. Bagaimana data penjualan berdasarkan region.
-2. Bagaimana data penjualan berdasdarkan sales.
+2. Bagaimana data penjualan berdadarkan sales.
 3. Bagaimana data penjualan berdasarkan produk.
 4. Bagaimana data penjualan berdasarkan bulan di tahun tertentu.
 5. Bagaimana data total penjualan berdasarkan units.
 6. Bagaimana pendapatan penjualan bulanan.
 
 
-<b>Teknik yang dipakai untuk mengurangi penulisan kode secara berulang. Parameter pada fungsi drawChart() diantaranya adalah:</b>
-<b>dataArray</b>
+<b>Teknik yang dipakai untuk mengurangi penulisan kode secara berulang. Parameter pada fungsi drawChart() diantaranya adalah<p>
+dataArray</b>
 Data dalam format Array yang diperoleh dari hasil parsing data yang diperoleh dari variabel PHP. Proses parsing data dilakukan menggunakan Javascript menggunakan fungsi JSON.parse().
 
-<b>type</b>
+<b>type</b><p>
 Tipe chart yang digunakan (‘pie', ‘bar', ‘column', 'line', 'area')
 
 <b>container<b>
-Nama id dari elemen yang akan digunakan sebagai container grafik. Menampilkan data penjualan berdasarkan region dilakukan oleh kode berikut:
- ...
- drawChart(region['dataArray'], 'pie','region');
- ...
+Nama id dari elemen yang akan digunakan sebagai container grafik. 
   
 Untuk menambah suatu grafik visualisasi lagi, terlebih dahulu kita mengatur layout nya. Pertama dengan menambahkan tampilan layoutnya pada views > visin.php
- <img:11.png>
