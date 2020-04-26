@@ -47,10 +47,10 @@ Berdasarkan format data json yang ada, kita perlu untuk mengkonversi sehingga me
 4. Jika terdapat region yang sama dalam C maka jumlahkan unit.
 
 Algoritma diatas kita konversi dalam PHP. Untuk membuat visualisasi penjualan baru, update file controllers/Visin.php dengan melakukan prosedur konversi sehingga fungsi region() menjadi seperti kode berikut:
-<img src="07.png">
+<img src="07.PNG">
 
 Selanjutnya update kode Javascript yang ada pada file view/visin.php menjadi seperti berikut ini:
-<img src="10.png">
+<img src="10.PNG">
 
 Kode di atas menunjukkan bahwa proses menggambar grafik dilakukan oleh fungsi drawChart(dataArray,type,container). Teknik ini dipakai untuk mengurangi penulisan kode secara berulang. Parameter pada fungsi drawChart() diantaranya adalah:
 ## dataArray
@@ -67,17 +67,15 @@ Nama id dari elemen yang akan digunakan sebagai container grafik.
     ...
 
 Untuk menambah suatu grafik visualisasi lagi, Kita perlu menyusun layout dalam Codeigniter yang kita buat Update file pada views > visin.php menjadi seperti kode berikut:
-<img src="10.png">
+<img src="10.PNG">
 
 Untuk membuat visualisasi penjualan baru, update file controllers/Visin.php seperti berikut:
-<img src="07.png">
+<img src="07.PNG">
 
 Update juga pada file view/visin.php menjadi seperti kode berikut:
-<img src="08.png"> <img src="09.png">
-
-
+<img src="08.PNG"> <img src="09.PNG">
 
 ### Tampilan Akhir:
-<img src="01.png"><img src="02.png">
-<img src="03.png"><img src="04.png">
-<img src="05.png"><img src="06.png">
+<img src="01.PNG"><img src="02.PNG">
+<img src="03.PNG"><img src="04.PNG">
+<img src="05.PNG"><img src="06.PNG">
