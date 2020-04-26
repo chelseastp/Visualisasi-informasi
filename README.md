@@ -32,6 +32,7 @@ Teknik visualisasi merupakan bentuk visual yang digunakan untuk menampilkan data
 <b>5. Menentukan layout.</b>
 Tahap layouting merupakan tahap menentukan posisi dari setiap visualisasi pada layar utama visualisasi agar pengguna dapat menerima sejumlah besar informasi sekaligus. Oleh sebab itu halaman visualisasi sebaiknya merupakan single page sehingga aspek penyampaian informasi secara sekaligus dapat terpenuhi.
 
+
 <b>Berdasarkan data row yang sudah kita peroleh, problem statement dapat kita susun. Problem statement yang mungkin diperoleh dari data row terebut diantaranya adalah:</b>
 1. Bagaimana data penjualan berdasarkan region.
 2. Bagaimana data penjualan berdadarkan sales.
@@ -41,14 +42,15 @@ Tahap layouting merupakan tahap menentukan posisi dari setiap visualisasi pada l
 6. Bagaimana pendapatan penjualan bulanan.
 
 
-<b>Teknik yang dipakai untuk mengurangi penulisan kode secara berulang. Parameter pada fungsi drawChart() diantaranya adalah<p>
-dataArray</b>
+<b>Teknik yang dipakai untuk mengurangi penulisan kode secara berulang. Parameter pada fungsi drawChart() diantaranya adalah:<p>
+dataArray</b><p>
 Data dalam format Array yang diperoleh dari hasil parsing data yang diperoleh dari variabel PHP. Proses parsing data dilakukan menggunakan Javascript menggunakan fungsi JSON.parse().
 
 <b>type</b><p>
 Tipe chart yang digunakan (‘pie', ‘bar', ‘column', 'line', 'area')
 
-<b>container<b>
+<b>container</b><p>
 Nama id dari elemen yang akan digunakan sebagai container grafik. 
+  
   
 Untuk menambah suatu grafik visualisasi lagi, terlebih dahulu kita mengatur layout nya. Pertama dengan menambahkan tampilan layoutnya pada views > visin.php
